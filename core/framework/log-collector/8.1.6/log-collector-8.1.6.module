@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "core.framework",
+    "module": "log-collector",
+    "version": "8.1.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "log-collector-8.1.6.jar",
+          "url": "log-collector-8.1.6.jar",
+          "size": 13477,
+          "sha512": "81cf562c17a97b5d4f856adca21c55244ef93a4ab6b0d0af25cbc8612e63eb8cc5df0a37c07ac7de0e40414979c1a4c837e0d1318c051b1c24090bbeb2aec51f",
+          "sha256": "10dc9ce21a84337909906e00a54d597ea81a17e58fd39b770111f70cd5e4890e",
+          "sha1": "ca0600bb11da21c84fdcf45bb75aeee22c533282",
+          "md5": "f1ad8f8998e49070a235af895e8e7d3a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "core.framework",
+          "module": "core-ng",
+          "version": {
+            "requires": "8.1.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "log-collector-8.1.6.jar",
+          "url": "log-collector-8.1.6.jar",
+          "size": 13477,
+          "sha512": "81cf562c17a97b5d4f856adca21c55244ef93a4ab6b0d0af25cbc8612e63eb8cc5df0a37c07ac7de0e40414979c1a4c837e0d1318c051b1c24090bbeb2aec51f",
+          "sha256": "10dc9ce21a84337909906e00a54d597ea81a17e58fd39b770111f70cd5e4890e",
+          "sha1": "ca0600bb11da21c84fdcf45bb75aeee22c533282",
+          "md5": "f1ad8f8998e49070a235af895e8e7d3a"
+        }
+      ]
+    }
+  ]
+}

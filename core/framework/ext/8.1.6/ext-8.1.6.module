@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "core.framework",
+    "module": "ext",
+    "version": "8.1.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ext-8.1.6.jar",
+          "url": "ext-8.1.6.jar",
+          "size": 261,
+          "sha512": "7605316509078848eb659ede51474338f99be722ec0547a6360470d26d2cc5bcb27cccf77708a1db96ad054d57ae33b11bd073ad5af28104f8ba6fdec56da5d9",
+          "sha256": "1332d79a0539fdc1a21229e51cad0c38f5dd4f219d195b41bd7157cda53ff51f",
+          "sha1": "67aa1bcadaf974d836f4b69c217dd391b745637c",
+          "md5": "352447867e9ab4d7a3aef5870b68740f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ext-8.1.6.jar",
+          "url": "ext-8.1.6.jar",
+          "size": 261,
+          "sha512": "7605316509078848eb659ede51474338f99be722ec0547a6360470d26d2cc5bcb27cccf77708a1db96ad054d57ae33b11bd073ad5af28104f8ba6fdec56da5d9",
+          "sha256": "1332d79a0539fdc1a21229e51cad0c38f5dd4f219d195b41bd7157cda53ff51f",
+          "sha1": "67aa1bcadaf974d836f4b69c217dd391b745637c",
+          "md5": "352447867e9ab4d7a3aef5870b68740f"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "core.framework",
+    "module": "monitor",
+    "version": "8.1.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "monitor-8.1.6.jar",
+          "url": "monitor-8.1.6.jar",
+          "size": 95733,
+          "sha512": "a5aae7a108e36bd33c729b4a8bc17e0a9bdaa64b4a142d5115c0373ad8f0ece66ba9354fb9c4033a5d89ac9e2bd8f665c5b92a58b72864a03c1b4c38a4a455f3",
+          "sha256": "17a5ce79346ccaf1b50d23e3c29e328a3e7fafefaee1415f763aaae0bc1b5865",
+          "sha1": "98481a1df57e3b87bfd060d4c032965318acdc0f",
+          "md5": "79f3eef1d2b996150aff1bd5b8fcbdaf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "core.framework",
+          "module": "core-ng",
+          "version": {
+            "requires": "8.1.6"
+          }
+        },
+        {
+          "group": "core.framework",
+          "module": "core-ng-mongo",
+          "version": {
+            "requires": "8.1.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "monitor-8.1.6.jar",
+          "url": "monitor-8.1.6.jar",
+          "size": 95733,
+          "sha512": "a5aae7a108e36bd33c729b4a8bc17e0a9bdaa64b4a142d5115c0373ad8f0ece66ba9354fb9c4033a5d89ac9e2bd8f665c5b92a58b72864a03c1b4c38a4a455f3",
+          "sha256": "17a5ce79346ccaf1b50d23e3c29e328a3e7fafefaee1415f763aaae0bc1b5865",
+          "sha1": "98481a1df57e3b87bfd060d4c032965318acdc0f",
+          "md5": "79f3eef1d2b996150aff1bd5b8fcbdaf"
+        }
+      ]
+    }
+  ]
+}

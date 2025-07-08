@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "core.framework",
+    "module": "core-ng-search-test",
+    "version": "8.1.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "core-ng-search-test-8.1.6.jar",
+          "url": "core-ng-search-test-8.1.6.jar",
+          "size": 12678,
+          "sha512": "d38c1b37d5697f5de76a71cd426fd73336085515e434518e7c06d7d32faaa5d4fb6f6137cad407865b50c4fccdb4ca24f6f8f7a75a3f0309feb125c7d2e11e31",
+          "sha256": "61e19356aa5e0a45cd6b3b978f643f6ffa7ab7343b3bc51b8e21448f10854302",
+          "sha1": "d10ec538db8d9fe77bd862e95d59cc4b5b515cfa",
+          "md5": "5a6368582aec35abd1639f05ba93628e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "core.framework",
+          "module": "core-ng-test",
+          "version": {
+            "requires": "8.1.6"
+          }
+        },
+        {
+          "group": "core.framework",
+          "module": "core-ng-search",
+          "version": {
+            "requires": "8.1.6"
+          }
+        },
+        {
+          "group": "org.elasticsearch",
+          "module": "elasticsearch",
+          "version": {
+            "requires": "8.9.0"
+          }
+        },
+        {
+          "group": "org.codelibs.elasticsearch.module",
+          "module": "transport-netty4",
+          "version": {
+            "requires": "8.9.0"
+          }
+        },
+        {
+          "group": "org.codelibs.elasticsearch.module",
+          "module": "mapper-extras",
+          "version": {
+            "requires": "8.9.0"
+          }
+        },
+        {
+          "group": "org.codelibs.elasticsearch.module",
+          "module": "lang-painless",
+          "version": {
+            "requires": "8.9.0"
+          }
+        },
+        {
+          "group": "org.codelibs.elasticsearch.module",
+          "module": "analysis-common",
+          "version": {
+            "requires": "8.9.0"
+          }
+        },
+        {
+          "group": "org.codelibs.elasticsearch.module",
+          "module": "reindex",
+          "version": {
+            "requires": "8.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-ng-search-test-8.1.6.jar",
+          "url": "core-ng-search-test-8.1.6.jar",
+          "size": 12678,
+          "sha512": "d38c1b37d5697f5de76a71cd426fd73336085515e434518e7c06d7d32faaa5d4fb6f6137cad407865b50c4fccdb4ca24f6f8f7a75a3f0309feb125c7d2e11e31",
+          "sha256": "61e19356aa5e0a45cd6b3b978f643f6ffa7ab7343b3bc51b8e21448f10854302",
+          "sha1": "d10ec538db8d9fe77bd862e95d59cc4b5b515cfa",
+          "md5": "5a6368582aec35abd1639f05ba93628e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-ng-search-test-8.1.6-sources.jar",
+          "url": "core-ng-search-test-8.1.6-sources.jar",
+          "size": 7183,
+          "sha512": "64ed0d1445a38859f4399761c25aced8f7680d39370f14935489bb91d39adaf47c93ac1a071381955219d68ea4e6c09f8a63fef3f47f4ed7e1b6c225e1c3767a",
+          "sha256": "d4914035fec8ce9cbf626ca44c66c299cdfdbe0bdb2671f018fd2618df3d1581",
+          "sha1": "80fb763070e3b4aca3cd945f5bb69995dbef42e2",
+          "md5": "8de17e703dacfbbb33381e3025aee1ac"
+        }
+      ]
+    }
+  ]
+}
